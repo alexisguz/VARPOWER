@@ -2,13 +2,12 @@
 
 Prototipo iOS del Trabajo Final de Grado **“Sistema de validación de movimientos de powerlifting con realidad aumentada”**.
 
-Este repositorio contiene un **esqueleto funcional** (compilable) con:
+Este repositorio contiene un sistema funcional (compilable) con:
 - UI en **SwiftUI** (login, home, listado de intentos, nuevo intento)
 - Integración base con **ARKit** (captura de frames) y **Vision** (pose detection)
 - Persistencia base con **Core Data** (estructura inicial)
 - Stubs/TO-DOs para el motor de validación IPF, overlays y modelos Core ML
 
-> Nota: Este repositorio está pensado para mostrar avance de arquitectura y módulos principales, con puntos de extensión señalizados mediante `TODO:`.
 
 ---
 
@@ -46,18 +45,4 @@ PowerliftingARValidatorApp/
 └─ Utils/               # Helpers (logs, permisos)
 ```
 
----
 
-## Roadmap (siguiente avance)
-
-- [ ] Implementar importación de video (PhotosPicker / FileImporter)
-- [ ] Render de overlay (líneas/ángulos) sobre el frame
-- [ ] Cálculo biomecánico (ángulos cadera/rodilla/hombro)
-- [ ] Motor de reglas IPF (profundidad, pausa en banca, lockout)
-- [ ] Persistencia de intentos (Core Data) + sincronización opcional (CloudKit)
-
----
-
-## Licencia
-
-Uso académico. Ajustar a la licencia requerida por tu cátedra / universidad.
